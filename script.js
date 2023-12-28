@@ -12,10 +12,10 @@ submitForm.addEventListener("submit", (e) => {
   if (descMax < vtDia * 21) {
     vtTotal.innerHTML = `${vtDia * 21}`;
     descUser.innerHTML = `${descMax}`;
-    vtEmpresa.innerHTML = `${vtDia * 21 - descMax}`;
+    vtEmpresa.innerHTML = `${Number(vtDia * 21 - descMax).toFixed(2)}`;
   } else if (descMax > vtDia * 21) {
     vtTotal.innerHTML = `${vtDia * 21}`;
     descUser.innerHTML = `${vtDia * 21}`;
-    vtEmpresa.innerHTML = `0`;
-  } 
+    vtEmpresa.innerHTML = `R$00.0`;
+  }
 });
