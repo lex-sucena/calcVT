@@ -6,10 +6,10 @@ Você poderá calcular o valor total do seu vale transporte, qual o valor que se
 
 ## Como utilizar
 
-A calculadora está disponível para ser acessada na web, basta entrar no [link](https://lex-sucena.github.io/calcVT/)
+A calculadora está disponível para ser acessada na web, basta entrar no [link](https://lex-sucena.github.io/calcVT/).
 
 ## Autor
 
-Alexander Sucena
-[LinkedIn](https://www.linkedin.com/in/alexander-sucena/)
+Alexander Sucena <br>
+[LinkedIn](https://www.linkedin.com/in/alexander-sucena/) <br>
 [Email](mailto:alexandersucena@gmail.com")
