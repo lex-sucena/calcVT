@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <title>Calculadora de VT</title>
+  </head>
+  <body>
+    <div>
+      <h1>Calculadora de Vale Transporte</h1>
+      <div>
+        <form id="submitForm">
+          <label for="salario">Salário bruto:</label>
+          <input type="number" name="salario" id="salario" step="0.01" />
+          <label for="vtDia">Valor por dia:</label>
+          <input type="number" name="vtDia" id="vtDia" step="0.01" />
+          <button id="calcBtn">Calcular</button>
+        </form>
+        <div>
+          <h2 id="resultado">Resultado</h2>
+          <p>Custo total do VT: <span id="vtTotal"></span></p>
+          <p>Você paga: <span id="descUser"></span></p>
+          <p>Sua empresa completa o valor com: <span id="vtEmpresa"></span></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
